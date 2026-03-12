@@ -61,7 +61,14 @@ p a:hover{ color:#868e36; text-decoration:none;}
 
 /* HEADER */
 
-#header{width:685px; height:238px; background: url(../images/b_header.jpg) 0 0 no-repeat; position:relative;}
+/* HEADER */
+#header {
+  width: 685px; 
+  height: 250px; /* Máy A đổi thành 250px */
+  background: #ff9800; /* Máy A đổi nền thành màu cam */
+  border-bottom: 5px solid #333;
+  position: relative;
+}
 
 #header img#slogan2{position:absolute; top:76px; left:19px}
 
