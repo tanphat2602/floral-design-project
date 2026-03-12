@@ -11,7 +11,15 @@ p a:hover{ color:#868e36; text-decoration:none;}
 .headline{font:10px/14px Tahoma, Geneva, sans-serif; color:#868e36; font-weight:bold}
 .headline2{font:10px/14px Tahoma, Geneva, sans-serif; color:#9d1263; font-weight:bold}
 
-#container{width:685px; position:relative; margin:0 auto;}
+#container {
+  width: 800px;
+  position: relative;
+  margin: 0 auto;
+  border: 1px solid #e9e9e9;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  background-color: #fafafa;
+}
 
 /* top */
 
